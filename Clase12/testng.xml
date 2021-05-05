@@ -1,0 +1,14 @@
+<suite name = "Test Suites">
+    <test name = "Ejercicio testng">
+        <groups>
+            <run>
+                <include name = "successTests"/>
+                <include name = "failed tests"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "Clase12.testngSalesforce"/>
+            <class name = "Clase12.grupos"/>
+        </classes>
+    </test>
+</suite>
